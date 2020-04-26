@@ -1,0 +1,20 @@
+{
+  "name": "landie",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.pug",
+    "build": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "postcss-scss": "^2.0.0",
+    "pug": "^2.0.4",
+    "sass": "^1.26.5"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-modules": "^2.0.0"
+  }
+}
